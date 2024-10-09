@@ -11,7 +11,7 @@
 }
 .navbar-brand {
     font-weight: 500;
-    color: #BDD8F8;
+    color: #44739C;
     font-size: 40px;
     font-family: Courier, monospace;
     font-weight: 600;
@@ -47,7 +47,7 @@
         transform: translateX(-50%);
         width: 0;
         height: 2px;
-        background-color: #BDD8F8;
+        background-color: #44739C;
         visibility: hidden;
         transition: 0.3s ease-in-out;
     }
@@ -127,17 +127,72 @@
 /* CV Page */
 
 .main-section {
+    margin-top: 125px;
     width: 100%;
-    height: 100svh;
+    text-align: center;
+}
+
+.main-section #main-container {
+    width: 70%;
+    padding: 30px;
+    border: solid var(--bs-border-color);
+    border-width: 1px;
+    border-radius: var(--bs-border-radius);
+    
 }
 
 .main-section .container {
-    width: 300px;
-    height: 75vh;
+    text-align: center;    
 }
 
-.main-section .container .table {
-    margin-top: 150px;
-    font-size: 0.6em;
+.main-section .h2 {
+    color: #44739C;
 }
+.main-section #rows-container {
+    display: flex;
+    flex-direction:row; 
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.main-section #education-container {
+    padding-left: 15px;
+    border-left: solid var(--bs-border-color);
+    border-width: 1px;
+}
+
+@media (max-width: 768px) {
+    .main-section #rows-container {
+      flex-direction: column;
+      text-align: justify;
+    }
+    .main-section #education-container {
+        border-left: 0px;
+    }
+}
+
+.main-section .container .italic-list-items {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.main-section #table-container {
+    margin: auto;
+    margin-top: 30px;
+    border: solid var(--bs-border-color);
+    border-width: 1px;
+    border-radius: var(--bs-border-radius);
+    width: 62%;
+}
+
+.main-section #table-container .table {
+    margin: 10px auto;
+    font-size: 1.2em;
+}
+
+.main-section #table-container .table .scope {
+    color: #44739C;
+    
+}
+
 
