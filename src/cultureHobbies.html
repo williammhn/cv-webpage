@@ -34,10 +34,10 @@
                       <a class="nav-link mx-lg-2" href="cv.html">Experiences</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-lg-2" href="hobbies.html">Hobbies</a>
+                        <a class="nav-link mx-lg-2 active" aria-current="page" href="hobbies.html">Hobbies</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link mx-lg-2 active" aria-current="page" href="contact.html">Contact</a>
+                    <a class="nav-link mx-lg-2" href="contact.html">Contact</a>
                     </li>
                   </ul>
                 </div>
@@ -47,45 +47,28 @@
         <!-- End of Navbar-->      
     </header>
 
-    <section class="form-section">
-      <div class="container my-5">
-          <p class="h2">Contact Me</p>
-          <form action="" method="post">
-              <div class="row mb-3">
-                  <div class="col-md-8">
-                      <label for="name" class="form-label">Name:</label>
-                      <input type="text" id="name" name="name" placeholder="Name / Surname" class="form-control" required>
-                  </div>
-                  <div class="col-md-4">
-                      <label for="age" class="form-label">Age:</label>
-                      <input type="number" id="age" name="age" class="form-control" required>
-                  </div>
-              </div>
-      
-              <div class="mb-3">
-                  <label for="email" class="form-label">Email:</label>
-                  <input type="email" id="email" name="email" placeholder="myadress@email.tld" class="form-control" required>
-              </div>
-      
-              <div class="mb-3">
-                  <label for="message" class="form-label">Message:</label>
-                  <textarea id="message" name="message" rows="5" placeholder="Write your message here..." class="form-control" required></textarea>
-              </div>
-      
-              <div class="mb-3">
-                  <label for="how" class="form-label">How did you know about my page?</label>
-                  <select id="how" name="how" class="form-select" required>
-                      <option value="search_engine">Search Engine</option>
-                      <option value="social_media">Social Media</option>
-                      <option value="friend">Friend</option>
-                      <option value="other">Other</option>
-                  </select>
-              </div>
-      
-              <button type="submit" class="btn btn-primary w-100">Submit</button>
-          </form>
-      </div>
-      
+    <section class="hobbies-section">
+        <p class="h2">My hobbies</p>
+        <p class="h5">Currently some of my favorites culture-pop things :</p>
+
+        <div class="container" id="integration-container">
+            <div>
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/07oO1U722crtVcavi6frX6?utm_source=generator" width="40%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </div>
+            <div class="film">
+                <div class="col-sm-4">
+                    <div class="card" id="film-card">
+                        <div class="image-container">
+                            <img src="img/film-poster.jpg" class="card-img-top" alt="culture">
+                        </div>
+                      <div class="card-body">
+                        <h5 class="card-title">Spiderman : Across the Spider-Verse</h5>
+                        <p class="card-text"><small class="text-body-secondary"><a href="https://youtu.be/shW9i6k8cB0?si=QKIR7gaEzUtV-BYL" class="link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Link of the trailer - YouTube</a></small></p>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
 
